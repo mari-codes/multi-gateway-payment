@@ -1,0 +1,3 @@
+CREATE DATABASE IF NOT EXISTS betalent_test;
+GRANT ALL PRIVILEGES ON betalent_test.* TO 'betalent'@'%';
+FLUSH PRIVILEGES;
